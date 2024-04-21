@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | SMS-Activate.app - Your Virtual Phone Number Solution</title>
+    <meta name="description" content="{{ page.description | default: 'Get your virtual phone number for SMS verifications across multiple platforms including WhatsApp, Telegram, Facebook, and more with SMS-Activate.app.' }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="{{ page.title }} | SMS-Activate.app">
+    <meta property="og:description" content="{{ page.description | default: 'Secure and private virtual phone numbers for all your SMS verification needs. Activate services without compromising your privacy with SMS-Activate.app.' }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}/assets/images/share-image.jpg"> 
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title }} | SMS-Activate.app">
+    <meta name="twitter:description" content="{{ page.description | default: 'Experience seamless SMS verifications with private virtual phone numbers from SMS-Activate.app. Your privacy, our priority.' }}">
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/twitter-share-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                {% for item in site.navigation %}
+                    <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <p>© {{ 'now' | date: "%Y" }} SMS-Activate.app. All rights reserved.</p>
+        <p>Secure virtual phone numbers for SMS verifications and more.</p>
+    </footer>
+    <!-- Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_TRACKING_ID');
+    </script>
+</body>
+</html>
