@@ -1,8 +1,57 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: SMS-Activate.app
+email: contact@sms-activate.app
+description: "Secure and private virtual phone numbers for SMS verification on any service. Activate online services without revealing your real phone number."
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "https://sms-activate.app" # the base hostname & protocol for your site
+twitter_username: PrivatePhoneBot
+github_username:  VirtualPhoneNumber
+telegram_username: PrivatePhoneBot
+
+# Build settings
+markdown: kramdown
+theme: minima
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - node_modules/
+  - package.json
+  - package-lock.json
+  # - README.md
+
+# SEO Tags
+seo:
+  type: WebPage
+  image:
+    path: /assets/images/share-image.jpg
+    height: 630
+    width: 1200
+  twitter:
+    card: summary_large_image
+
+# Navigation settings
 navigation:
-  - title: "Sms Activate - Virtual Phone Numbers for Verification"
-    url: "/readme.md"
-  - title: "Get Started - Private Phone Bot"
-    url: "/get-started.md"
+  - title: "Home"
+    url: "/"
+  - title: "Get Started"
+    url: "/get-started"
+  - title: "Features"
+    url: "/features"
+  - title: "Support"
+    url: "/support"
+
+# Social links (Optional)
+social_links:
+  twitter: https://twitter.com/PrivatePhoneBot
+  telegram: https://t.me/PrivatePhoneBot
+  github: https://github.com/yourusername
+
+# Google Analytics (Optional)
+google_analytics: UA-XXXXX-Y
+
+# Footer settings
+footer:
+  copyright: "Copyright © {{ 'now' | date: '%Y' }} SMS-Activate.app. All Rights Reserved."
