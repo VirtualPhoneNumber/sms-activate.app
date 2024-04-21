@@ -1,0 +1,8 @@
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-remote-theme
+navigation:
+  - title: "Sms Activate - Virtual Phone Numbers for Verification"
+    url: "/readme.md"
+  - title: "Get Started - Private Phone Bot"
+    url: "/get-started.md"
