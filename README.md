@@ -24,7 +24,7 @@ Unlock the power of privacy and flexibility with sms-activate.app, the leading p
 
 ## Ready to Get Started? 🚀
 
-[GET YOUR VIRTUAL NUMBER](/get-started)
+[GET YOUR VIRTUAL NUMBER](/get-started.md)
 
 Your privacy and convenience are just a click away. Secure your online presence with our trusted virtual phone number service now!
 
