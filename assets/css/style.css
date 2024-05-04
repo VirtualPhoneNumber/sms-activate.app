@@ -1,40 +1,131 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+/* Basic Setup */
+:root {
+    --primary-color: #333;
+    /* Dark gray */
+    --secondary-color: #555;
+    /* Medium gray */
+    --background-color: #f4f4f4;
+    /* Light gray */
+    --text-color: #fff;
+    /* White */
+    --link-color: #009ffd;
+    /* Bright blue for links */
+    --font-family: 'Arial', sans-serif;
+}
+
+/* Reset some basic elements */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
-header, footer {
-    background-color: #333;
-    color: white;
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: #333;
+    font-size: 16px;
+    /* Base font size */
+}
+
+header,
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
     text-align: center;
     padding: 1rem 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
 }
 
 main {
     padding: 20px;
     max-width: 800px;
     margin: auto;
-    background-color: white;
+    background-color: var(--text-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
-    margin: 0;
+    margin-top: 1rem;
+}
+
+/* Navigation Styles */
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: var(--text-color);
+}
+
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus {
+    background-color: var(--secondary-color);
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu {
+    background-color: var(--primary-color);
+}
+
+.dropdown-item {
+    color: var(--text-color);
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: var(--secondary-color);
+    transition: background-color 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+/* Typography Improvements */
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Accessibility Enhancements */
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }

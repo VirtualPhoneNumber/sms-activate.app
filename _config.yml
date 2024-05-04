@@ -5,7 +5,7 @@ description: "Secure and private virtual phone numbers for SMS verification on a
 baseurl: "" # the subpath of your site, e.g., /blog
 url: "https://sms-activate.app" # the base hostname & protocol for your site
 twitter_username: PrivatePhoneBot
-github_username:  VirtualPhoneNumber
+github_username: VirtualPhoneNumber
 telegram_username: PrivatePhoneBot
 
 # Build settings
@@ -14,13 +14,13 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from build
 exclude:
   - node_modules/
   - package.json
   - package-lock.json
-  # - README.md
 
 # SEO Tags
 seo:
@@ -32,26 +32,148 @@ seo:
   twitter:
     card: summary_large_image
 
-# Navigation settings
-navigation:
+# Navigation settings for English
+navigation_en:
   - title: "Home"
     url: "/"
+  - title: "Services"
+    url: "/services"
+    submenu:
+      - title: "SMS Verification"
+        url: "/sms-verification"
+      - title: "Virtual Phone Numbers"
+        url: "/virtual-phone-numbers"
+      - title: "Temporary Phone Numbers"
+        url: "/temporary-phone-numbers"
+      - title: "Elite Phone Numbers"
+        url: "/elite-phone-numbers"
+      - title: "Free Phone Numbers"
+        url: "/free-phone-numbers"
+      - title: "Phone Number Generator"
+        url: "/phone-number-generator"
+  - title: "FAQ"
+    url: "/faq"
+    submenu:
+      - title: "How It Works"
+        url: "/how-it-works"
+      - title: "Pricing"
+        url: "/pricing"
+  - title: "API"
+    url: "/api"
+    submenu:
+      - title: "API Documentation"
+        url: "/api-documentation"
+      - title: "Webhook"
+        url: "/webhook"
+      - title: "Redirect"
+        url: "/redirect"
+  - title: "Contact"
+    url: "/contact"
+    submenu:
+      - title: "Support"
+        url: "/support"
+      - title: "About Us"
+        url: "/about-us"
+      - title: "Privacy Policy"
+        url: "/privacy-policy"
+      - title: "Terms of Service"
+        url: "/terms-of-service"
+  - title: "For Partners"
+    url: "/for-partners"
+    submenu:
+      - title: "Affiliate Program"
+        url: "/affiliate-program"
+      - title: "Reseller Program"
+        url: "/reseller-program"
+      - title: "Referral Program"
+        url: "/referral-program"
+  - title: "Blog"
+    url: "/blog"
   - title: "Get Started"
     url: "/get-started"
-  - title: "Features"
-    url: "/features"
-  - title: "Support"
-    url: "/support"
 
-# Social links (Optional)
+# Russian Navigation
+navigation_ru:
+  - title: "Главная"
+    url: "/ru/"
+  - title: "Услуги"
+    url: "/ru/services"
+    submenu:
+      - title: "СМС Верификация"
+        url: "/ru/sms-verification"
+      - title: "Виртуальные Номера"
+        url: "/ru/virtual-phone-numbers"
+      - title: "Временные Номера"
+        url: "/ru/temporary-phone-numbers"
+      - title: "Элитные Номера"
+        url: "/ru/elite-phone-numbers"
+      - title: "Бесплатные Номера"
+        url: "/ru/free-phone-numbers"
+      - title: "Генератор Номеров"
+        url: "/ru/phone-number-generator"
+  - title: "Вопросы и Ответы"
+    url: "/ru/faq"
+    submenu:
+      - title: "Как это работает"
+        url: "/ru/how-it-works"
+      - title: "Цены"
+        url: "/ru/pricing"
+  - title: "API"
+    url: "/ru/api"
+    submenu:
+      - title: "Документация API"
+        url: "/ru/api-documentation"
+      - title: "Webhook"
+        url: "/ru/webhook"
+      - title: "Перенаправление"
+        url: "/ru/redirect"
+  - title: "Контакты"
+    url: "/ru/contact"
+    submenu:
+      - title: "Поддержка"
+        url: "/ru/support"
+      - title: "О нас"
+        url: "/ru/about-us"
+      - title: "Политика конфиденциальности"
+        url: "/ru/privacy-policy"
+      - title: "Условия обслуживания"
+        url: "/ru/terms-of-service"
+  - title: "Для Партнеров"
+    url: "/ru/for-partners"
+    submenu:
+      - title: "Партнерская Программа"
+        url: "/ru/affiliate-program"
+      - title: "Программа для Перепродавцов"
+        url: "/ru/reseller-program"
+      - title: "Реферальная Программа"
+        url: "/ru/referral-program"
+  - title: "Блог"
+    url: "/ru/blog"
+  - title: "Начать"
+    url: "/ru/get-started"
+
+# Social links
 social_links:
   twitter: https://twitter.com/PrivatePhoneBot
   telegram: https://t.me/PrivatePhoneBot
-  github: https://github.com/yourusername
+  github: https://github.com/VirtualPhoneNumber
 
-# Google Analytics (Optional)
-google_analytics: UA-XXXXX-Y
+# Google Analytics
+google_analytics: G-VNJRLSL3WX # Replace with your actual Tracking ID
 
 # Footer settings
 footer:
   copyright: "Copyright © {{ 'now' | date: '%Y' }} SMS-Activate.app. All Rights Reserved."
+
+# Default configuration for languages
+defaults:
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
+      layout: "default"
+  - scope:
+      path: "ru"
+    values:
+      lang: "ru"
+      layout: "default"

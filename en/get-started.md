@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Get Started with SMS-Activate.app - Your Privacy, Our Priority"
+description: "SMS Activate - your reliable service for obtaining virtual phone numbers for SMS verification without disclosing personal details. Learn how to start using our service."
+lang: en
+permalink: /get-started
+---
+
 # Get Started with Private Phone Bot on Telegram 🚀
 
 Welcome to the ultimate guide for using **Private Phone Bot**, your go-to solution for managing virtual phone numbers directly within Telegram. Whether you need a number for SMS verification, call forwarding, or maintaining your privacy, our bot has got you covered.
@@ -40,12 +48,8 @@ If you have any questions or need assistance, our support team is here to help. 
 ## Connect With Us 🌍
 Stay updated with the latest news and features by following us:
 
-- **Learn More**: [PrivatePhone.me](https://privatephone.me)
+- **Learn More**: [SMS Activate Bot](https://sms-activate.bot)
 - **Daily Free Phone Numbers**: [FreeVirtualNumbers.com](https://freevirtualnumbers.com/)
 - **Updates and News**: [Follow us on Twitter](https://twitter.com/PrivatePhoneBot)
 
 Ready to embrace a new level of privacy and convenience in your online communications? Get started with Private Phone Bot today and experience the future of virtual phone numbers!
-
----
-
-This Get Started page provides a comprehensive overview of the Private Phone Bot, guiding new users through each feature and the setup process, ensuring a smooth and user-friendly experience from start to finish.
