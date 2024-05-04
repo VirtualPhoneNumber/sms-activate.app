@@ -1,4 +1,3 @@
-# Welcome to sms-activate.app 📲
 
 Unlock the power of privacy and flexibility with sms-activate.app, the leading provider of secure, private, and complimentary virtual phone numbers for SMS and calls. Integrated seamlessly with Telegram, our service is perfect for activating online services without revealing your real phone number, managing multiple accounts, or obtaining a temporary number for quick verifications.
 
