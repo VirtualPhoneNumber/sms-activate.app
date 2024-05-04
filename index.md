@@ -50,7 +50,3 @@ Your privacy and convenience are just a click away. Secure your online presence 
 For inquiries and support, contact us at [support@sms-activate.app](mailto:support@sms-activate.app).
 
 Follow our journey and stay updated with the latest in virtual communication technology!
-
----
-
-2024 (c) sms-activate.app
