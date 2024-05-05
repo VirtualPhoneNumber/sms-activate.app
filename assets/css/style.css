@@ -1,14 +1,14 @@
 :root {
-    --primary-color: #121212;
-    --secondary-color: #3c3cde;
-    --background-color: #f8f9fa;
-    --text-color: #171717;
-    --link-color: #3c3cde;
-    --accent-color: #3c3cde; /* New accent color for highlights */
-    --font-family: 'Segoe UI', 'Noto Sans', sans-serif;
+    --primary-color: #2AABEE; /* Telegram Blue */
+    --secondary-color: #1b90cf; /* A slightly darker shade for contrast */
+    --background-color: #f2f4f6; /* A light, clean background */
+    --text-color: #333333; /* Darker text for better readability */
+    --link-color: #2AABEE; /* Matching Telegram blue for links */
+    --accent-color: #1b90cf; /* Lighter blue for accents */
+    --font-family: 'Segoe UI', 'Roboto', sans-serif; /* Clean, modern font */
     --transition-speed: 0.3s;
-    --border-radius: 0.25rem;
-    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* New box shadow for depth */
+    --border-radius: 0.25rem; /* Soft edges */
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 /* Reset and base setup */
@@ -19,9 +19,9 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: var(--font-family);
-    line-height: 1.5;
+    line-height: 1.6;
     background-color: var(--background-color);
-    color: var(--primary-color);
+    color: var(--text-color);
     font-size: 1rem;
 }
 
@@ -50,10 +50,14 @@ main {
     align-items: center;
     padding: 0.5rem 1rem;
     background-color: var(--primary-color);
-    /* box-shadow: var(--box-shadow); */
 }
 
 .navbar a {
+    color: var(--background-color);
+    text-decoration: none;
+}
+
+.navbar-nav a {
     color: var(--text-color);
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -62,13 +66,13 @@ main {
 }
 
 .navbar a:hover, .navbar a:focus {
-    background-color: var(--secondary-color);
+    background-color: var(--accent-color);
     color: var(--background-color);
 }
 
-.navbar a.nav-link, .navbar a.dropdown-toggle{
-    color: var(--background-color);
-    opacity: 1.0;
+.navbar-expand-lg .navbar-nav .nav-link{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 /* Responsive Design adjustments */
@@ -107,7 +111,7 @@ main {
 h1, h2, h3 {
     font-weight: 600;
     margin-bottom: 1rem;
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 p {
