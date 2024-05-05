@@ -1,61 +1,53 @@
 ---
 layout: default
 title: "Privacy Policy - SMS Activate"
-description: "Understand how SMS Activate handles your personal information and respects your privacy."
+description: "Learn about our commitment to protecting your privacy and handling your data responsibly."
 lang: en
 permalink: /privacy-policy
 ---
 
 # Privacy Policy
 
-At SMS Activate, we are committed to protecting the privacy and security of our users. This Privacy Policy outlines the types of personal information we collect, how it is used, and the measures we take to ensure your data is protected.
+At sms-activate.app, we recognize the importance of privacy and are committed to ensuring the security and confidentiality of your personal information. This privacy policy outlines how we collect, use, store, and protect your information when you use our services.
 
 ## Information Collection
 
-**What We Collect:**
-- **Contact Information:** Includes your email address and phone number when you register for our services.
-- **Transaction Details:** Information about the transactions you carry out through our platform, including purchases of virtual numbers.
-- **Usage Data:** Information on how you use our website and services.
+**Personal Information:** We collect personal information such as your name, email address, and phone number only when you voluntarily provide it to us. This may be through signing up for an account, requesting customer support, or using our services.
+
+**Usage Data:** We automatically collect usage data when you interact with our services. This includes details about how you use our website, IP addresses, browser type, browser version, our service pages that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data.
 
 ## Use of Information
 
-The information we collect from you may be used in one of the following ways:
-- **To Personalize Your Experience:** Your information helps us to better respond to your individual needs.
-- **To Improve Our Website:** We continually strive to improve our website offerings based on the information and feedback we receive from you.
-- **To Process Transactions:** Your information, whether public or private, will not be sold, exchanged, transferred, or given to any other company for any reason whatsoever, without your consent.
-- **To Send Periodic Emails:** The email address you provide may be used to send you information and updates pertaining to your order, in addition to receiving occasional company news, updates, related product or service information.
+The information we collect is used to:
+- Provide and maintain our service;
+- Notify you about changes to our service;
+- Allow you to participate in interactive features of our service when you choose to do so;
+- Provide customer support;
+- Gather analysis or valuable information so that we can improve our service;
+- Monitor the usage of our service;
+- Detect, prevent and address technical issues;
+- Communicate with you about promotions, contests, surveys or other features.
 
 ## Data Protection
 
-We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information. These security measures include password protected directories and databases to safeguard your information.
+We employ a variety of security measures to protect your personal information from unauthorized access, alteration, disclosure or destruction. We restrict access to personal information to sms-activate.app employees, contractors and agents who need to know that information in order to process it for us.
 
-## Third Party Links
+## Third-party Services
 
-Occasionally, at our discretion, we may include or offer third party products or services on our website. These third party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites.
+We may employ third-party companies and individuals to facilitate our Service ("Service Providers"), provide the Service on our behalf, perform Service-related services or assist us in analyzing how our Service is used. These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
 
-## Consent
+## Links To Other Sites
 
-By using our site, you consent to our privacy policy.
+Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
 
-## Changes to our Privacy Policy
+## Changes To This Privacy Policy
 
-If we decide to change our privacy policy, we will post those changes on this page. This policy was last modified on [insert date].
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.
 
-## Contacting Us
+## Contact Us
 
-If there are any questions regarding this privacy policy you may contact us using the information below:
+For more information about our privacy practices or if you have any questions regarding this Privacy Policy, please contact us at [Email Support](mailto:support@sms-activate.app).
 
-- **Email:** [support@sms-activate.app](mailto:support@sms-activate.app)
+[Home](/) | [Services](/services) | [SMS Verification](/sms-verification) | [Virtual Phone Numbers](/virtual-phone-numbers) | [Temporary Phone Numbers](/temporary-phone-numbers) | [Elite Phone Numbers](/elite-phone-numbers) | [Free Phone Numbers](/free-phone-numbers) | [Phone Number Generator](/phone-number-generator) | [FAQ](/faq) | [How It Works](/how-it-works) | [Pricing](/pricing) | [API Documentation](/api-documentation)
 
-For more detailed information on how we manage user data and security protocols, please visit our [Support](/support) page or reach out directly through our contact channels.
-
----
-
-### Navigate Other Pages:
-- [Home](/)
-- [Services](/services)
-- [Get Started](/get-started)
-- [FAQ](/faq)
-- [Contact Us](/contact)
-
-We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+To start using virtual phone numbers for SMS verification seamlessly across various platforms while ensuring your privacy is protected at all times, visit [@PrivatePhoneBot](https://t.me/PrivatePhoneBot).

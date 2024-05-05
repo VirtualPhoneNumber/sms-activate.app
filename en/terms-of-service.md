@@ -1,50 +1,57 @@
 ---
 layout: default
 title: "Terms of Service - SMS Activate"
-description: "Read the terms and conditions for using SMS Activate's virtual phone number services."
+description: "Read the terms of service for using virtual phone numbers at SMS Activate."
 lang: en
 permalink: /terms-of-service
 ---
 
 # Terms of Service
 
-Welcome to SMS Activate! By using our services, you agree to comply with and be bound by the following terms and conditions. Please review them carefully.
+Welcome to SMS Activate! Our services provide you with reliable and private virtual phone numbers for various SMS verification needs across multiple platforms. By using our services, you agree to comply with the following terms and conditions. Please read them carefully.
 
 ## Acceptance of Terms
-The services that SMS Activate provides to you are subject to the following Terms of Service ("TOS"). We reserve the right to update the TOS at any time without notice to you. You can review the most current version of the TOS at any time on this page.
+By accessing or using any part of our services, including the website, APIs, and Telegram Bot [@PrivatePhoneBot](https://t.me/PrivatePhoneBot), you agree to be bound by these terms of service. If you disagree with any part of the terms, you may not access the service.
 
-## Description of Services
-SMS Activate offers a variety of virtual phone number services designed for SMS verification, privacy protection, and temporary communication needs. Our services include:
-- **Real-time SMS Delivery:** Immediate notifications for SMS verifications.
-- **Virtual Phone Numbers:** Temporary or long-term phone numbers from various countries.
-- **Elite Phone Numbers:** High-quality numbers for enhanced business branding.
-- **Free Phone Numbers:** Accessible on a limited basis for trial or short-term use.
+## Service Description
+SMS Activate offers:
+- **Virtual Phone Numbers**: Temporary or long-term numbers for SMS verification.
+- **SMS Verification**: Secure your online registrations without revealing your personal number.
+- **Elite Phone Numbers**: Premium numbers for enhanced business presence.
+- **Free Phone Numbers**: Access to free numbers under specific conditions.
 
-## User Conduct
-You are responsible for all activities under your account, including the legality, reliability, and appropriateness of all content you receive through our services. The use of our services to transmit any illegal, harassing, libelous, abusive, threatening, harmful, vulgar, obscene, or otherwise objectionable material of any kind is strictly prohibited.
+## User Responsibilities
+- You must use our services only for lawful purposes and in compliance with our service terms.
+- You are responsible for all activities under your account and any charges incurred by your use of our services.
+- You must ensure that all information you provide is accurate and up-to-date.
 
-## Service Availability
-We strive to ensure availability of our services at all times. However, there may be occasions when services could be interrupted for maintenance, upgrades, emergency repairs, or due to failure of telecommunications links and equipment that are beyond our control.
+## Prohibited Uses
+You are prohibited from using our services:
+- For any unlawful purpose.
+- To solicit others to perform or participate in unlawful acts.
+- To violate any international or national regulations, rules, laws, or local ordinances.
 
-## Payment and Refunds
-Fees for our services are based on the service plan you select. Payments are due at the start of each subscription period. Refunds are available under specific circumstances and must be requested within a certain period after purchase as specified in our refund policy.
-
-## Privacy Policy
-Your privacy is important to us. Our [Privacy Policy](/privacy-policy) explains how we collect, use, and protect your personal information. By using our services, you agree to the collection and use of your information as outlined in our Privacy Policy.
+## Intellectual Property Rights
+All content included on the site, such as text, graphics, logos, images, as well as the compilation thereof, and any software used on the site is the property of SMS Activate or its suppliers and protected by copyright laws.
 
 ## Termination
-We may terminate or suspend access to our services immediately if you breach any terms in this TOS without prior notice or liability.
+We may terminate or suspend access to our service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
 
-## Links to Other Pages
+## Links To Other Web Sites
+Our Service may contain links to third-party web sites or services that are not owned or controlled by SMS Activate. We assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+
+## Changes
+We reserve the right to modify or replace these terms at any time. By continuing to access or use our service after those revisions become effective, you agree to be bound by the revised terms.
+
+## Contact Us
+For more information about our terms of service or other inquiries, please [contact us](/contact).
+
+Explore more about our offerings and start using our services today! Visit [Get Started](/get-started) page to learn how easy it is to begin with [@PrivatePhoneBot](https://t.me/PrivatePhoneBot).
+
+**Navigate through other pages on our website:**
 - [Home](/)
 - [Services](/services)
-- [SMS Verification](/sms-verification)
-- [Virtual Phone Numbers](/virtual-phone-numbers)
-- [Temporary Phone Numbers](/temporary-phone-numbers)
-- [Elite Phone Numbers](/elite-phone-numbers)
-- [Free Phone Numbers](/free-phone-numbers)
+- [FAQ](/faq)
 - [Contact Us](/contact)
 
-For more detailed information about how to get started with our virtual phone number services or for further assistance, please visit our [Get Started page](/get-started).
-
-By accessing or using our services, you signify your agreement to these TOS. If you do not agree with any part of these terms, please do not use our services.
+**Keywords:** virtual phone number free, free virtual mobile number for SMS verification, SMS activate WhatsApp, temporary phone number online

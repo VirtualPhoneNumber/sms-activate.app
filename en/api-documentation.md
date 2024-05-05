@@ -1,65 +1,85 @@
 ---
 layout: default
 title: "API Documentation - SMS Activate"
-description: "Explore the detailed API documentation for integrating SMS verification services with your systems using SMS Activate."
+description: "Explore detailed documentation for using the SMS Activate API to integrate virtual phone number services into your applications."
 lang: en
 permalink: /api-documentation
 ---
 
 # API Documentation
 
-Welcome to the API documentation for SMS Activate. This section provides comprehensive details and guidelines on how to integrate our virtual phone number services into your applications and systems efficiently. Whether you're looking to automate SMS verifications or enhance your application's communication capabilities, our API offers robust solutions tailored to meet your needs.
+Welcome to the **SMS Activate API Documentation**. Here, you will find all the necessary information to integrate our robust virtual phone number services into your applications. Whether you're looking to enhance your business communication, implement SMS verification systems, or manage multiple numbers dynamically, our API provides a flexible and powerful solution.
 
-## Overview
+## Getting Started with the API
 
-Our API allows developers to access and manage virtual phone numbers programmatically for various use cases including SMS verification, call management, and more. It supports a wide range of operations such as number allocation, message retrieval, and real-time notifications.
+To begin using the SMS Activate API, follow these steps:
+1. **Create an Account:** Register on [SMS Activate](https://sms-activate.app) to obtain your API credentials.
+2. **Generate API Key:** Access your dashboard to generate an API key which will be used to authenticate your requests.
+3. **Review Documentation:** Familiarize yourself with the available endpoints and their purposes below.
 
-## Getting Started
+## Key Features of the API
 
-To begin using the SMS Activate API, you need to:
+- **Real-Time Number Allocation:** Instantly allocate numbers from over 100 countries for SMS verification purposes.
+- **SMS Fetching:** Retrieve SMS messages programmatically as soon as they are received.
+- **Number Management:** Release or renew numbers based on your operational requirements.
+- **Webhook Implementation:** Set up webhooks to receive real-time notifications for received messages.
 
-1. **Create an Account:** Sign up at [SMS Activate](https://sms-activate.app/get-started) to obtain your API key.
-2. **API Key:** Securely store your unique API key which is essential for all requests.
-3. **Read the Documentation:** Familiarize yourself with the available endpoints and their specific requirements.
+## Endpoints Overview
 
-## Key Endpoints
+### Authentication Endpoint
+- **URL:** `/api/auth`
+- **Method:** `POST`
+- **Description:** Authenticate users and retrieve an access token.
 
-- **Get Number:** Allocate a new virtual phone number for receiving SMS.
-- **Send SMS:** Send outgoing messages from your allocated number.
-- **Check Status:** Retrieve the current status of a given phone number.
-- **Release Number:** Release the number after use or when it is no longer needed.
+### Allocate Number
+- **URL:** `/api/allocate_number`
+- **Method:** `GET`
+- **Description:** Allocate a new virtual phone number for receiving SMS.
 
-## Example Requests
+### Fetch Messages
+- **URL:** `/api/fetch_messages`
+- **Method:** `GET`
+- **Description:** Fetch all messages received by a specific number.
 
-Here are some basic examples of how to use the API:
+### Manage Number
+- **URL:** `/api/manage_number`
+- **Method:** `POST`
+- **Description:** Renew or release a number based on your needs.
 
-### Request a Number
+## Example Requests and Responses
 
-```bash
-curl -X GET 'https://api.sms-activate.app/get-number?api_key=YOUR_API_KEY&service=whatsapp'
+```json
+// Request for allocating a number
+GET /api/allocate_number?country=US&service=WhatsApp
+{
+    "apiKey": "your_api_key_here"
+}
+
+// Response
+{
+    "status": "success",
+    "number": "+1234567890",
+    "country": "US"
+}
 ```
 
-### Check Message Status
+## Best Practices for API Integration
 
-```bash
-curl -X GET 'https://api.sms-activate.app/check-status?api_key=YOUR_API_KEY&number_id=12345'
-```
+- Ensure secure storage and usage of API keys.
+- Handle errors gracefully and implement retries for failed requests.
+- Use webhooks for efficient real-time updates instead of polling endpoints.
 
-## Best Practices
+## Support and Further Assistance
 
-- **Security:** Always keep your API key confidential to prevent unauthorized access.
-- **Error Handling:** Implement robust error handling to manage different scenarios gracefully.
-- **Resource Management:** Release numbers when not in use to avoid unnecessary charges.
+For any technical issues or detailed queries not covered in this documentation, please reach out through our [Support Page](/support) or contact us directly via [Email Support](mailto:support@sms-activate.app).
 
-## Support and Resources
+## Related Links
 
-For any technical issues or questions regarding the API integration, please refer to our [Support Page](/support) or contact us directly through [Email Support](mailto:support@sms-activate.app).
+Navigate through other related services:
+- [Virtual Phone Numbers](/virtual-phone-numbers)
+- [SMS Verification](/sms-verification)
+- [Temporary Phone Numbers](/temporary-phone-numbers)
 
-To explore further details about other services, visit our [Services Page](/services).
+**Ready to start integrating?** Visit the [Get Started page](/get-started) to explore how you can leverage [@PrivatePhoneBot](https://t.me/PrivatePhoneBot) for seamless online verifications and more!
 
-**Useful Links:**
-- [Home](/)
-- [Get Started with SMS Activate](/get-started)
-- [FAQ](/faq)
-
-By leveraging our detailed API documentation and following the outlined best practices, you can enhance your application's capabilities with efficient and reliable communication tools provided by SMS Activate.
+Enhance your application's capabilities with reliable SMS functionalities today!
