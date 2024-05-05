@@ -13,19 +13,45 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Organization",
+        "@type": "WebSite",
         "url": "{{ site.url }}",
         "name": "{{ site.title }}",
+        "description": "{{ site.description }}",
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.title }}",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ site.url }}{{ site.seo.image.path }}"
+            }
+        },
+        "image": {
+            "@type": "ImageObject",
+            "url": "{{ site.url }}{{ site.seo.image.path }}",
+            "width": 1200,
+            "height": 630
+        },
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+1-555-555-5555",
+            "telephone": "+447360545243",
             "contactType": "customer service",
-            "areaServed": "US",
+            "areaServed": "UK",
             "availableLanguage": ["English", "Russian"]
-        }
+        },
+        "sameAs": [
+            "https://twitter.com/PrivatePhoneBot",
+            "https://virtualphonenumber.org",
+            "http://freevirtualnumbers.com",
+            "https://privatephone.me",
+            "https://sms-activate.bot",
+            "https://t.me/PrivatePhoneBot",
+            "https://t.me/VirtualNumbersForVerification",
+            "https://t.me/FreeSmsReceiver",
+            "https://t.me/SmsVerificationService",
+            "https://t.me/PrivatePhoneReviews"
+        ]
     }
-    </script>
-
+</script>
     <!-- Open Graph Tags -->
     <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
     <meta property="og:description" content="{{ page.description | default: site.description }}">
@@ -58,7 +84,7 @@
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
-        gtag('config', 'G-VNJRLSL3WX');
+        gtag('config', "{{ site.google_analytics }}");
     </script>
 </head>
 

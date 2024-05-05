@@ -7,6 +7,7 @@ url: "https://sms-activate.app" # the base hostname & protocol for your site
 twitter_username: PrivatePhoneBot
 github_username: VirtualPhoneNumber
 telegram_username: PrivatePhoneBot
+google_analytics: G-VNJRLSL3WX # Replace with your actual Tracking ID
 
 # Build settings
 markdown: kramdown
@@ -31,6 +32,32 @@ seo:
     width: 1200
   twitter:
     card: summary_large_image
+    site: "{{ site.twitter_username }}"
+    creator: "{{ site.twitter_username }}"
+
+# Social links
+social_links:
+  twitter: https://twitter.com/PrivatePhoneBot
+  telegram: https://t.me/PrivatePhoneBot
+  github: https://github.com/VirtualPhoneNumber
+
+# Footer settings
+footer:
+  copyright: "Copyright © {{ 'now' | date: '%Y' }} SMS-Activate.app. All Rights Reserved."
+
+# Default configuration for languages
+defaults:
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
+      layout: "default"
+  - scope:
+      path: "ru"
+    values:
+      lang: "ru"
+      layout: "default"
+
 
 # Navigation settings for English
 navigation_en:
@@ -151,29 +178,3 @@ navigation_ru:
     url: "/ru/blog"
   - title: "Начать"
     url: "/ru/get-started"
-
-# Social links
-social_links:
-  twitter: https://twitter.com/PrivatePhoneBot
-  telegram: https://t.me/PrivatePhoneBot
-  github: https://github.com/VirtualPhoneNumber
-
-# Google Analytics
-google_analytics: G-VNJRLSL3WX # Replace with your actual Tracking ID
-
-# Footer settings
-footer:
-  copyright: "Copyright © {{ 'now' | date: '%Y' }} SMS-Activate.app. All Rights Reserved."
-
-# Default configuration for languages
-defaults:
-  - scope:
-      path: "en"
-    values:
-      lang: "en"
-      layout: "default"
-  - scope:
-      path: "ru"
-    values:
-      lang: "ru"
-      layout: "default"
