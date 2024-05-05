@@ -1,105 +1,96 @@
-/* Basic Setup */
 :root {
-    --primary-color: #333333;
-    /* Dark gray */
-    --secondary-color: #555555;
-    /* Medium gray */
-    --background-color: #f4f4f4;
-    /* Light gray */
-    --text-color: #ffffff;
-    /* White */
-    --link-color: #009ffd;
-    /* Bright blue for links */
-    --font-family: 'Arial', sans-serif;
+    --primary-color: #121212;
+    --secondary-color: #3c3cde;
+    --background-color: #f8f9fa;
+    --text-color: #171717;
+    --link-color: #3c3cde;
+    --accent-color: #3c3cde; /* New accent color for highlights */
+    --font-family: 'Segoe UI', 'Noto Sans', sans-serif;
     --transition-speed: 0.3s;
+    --border-radius: 0.25rem;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* New box shadow for depth */
 }
 
-/* Reset some basic elements */
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
+/* Reset and base setup */
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
 body {
     font-family: var(--font-family);
-    line-height: 1.6;
+    line-height: 1.5;
     background-color: var(--background-color);
     color: var(--primary-color);
-    font-size: 16px;
-    /* Base font size */
+    font-size: 1rem;
 }
 
-header,
-footer {
+header, footer {
     background-color: var(--primary-color);
-    color: var(--text-color);
+    color: var(--background-color);
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
+    /* box-shadow: var(--box-shadow); */
 }
 
 main {
     padding: 20px;
-    max-width: 800px;
+    max-width: 960px;
     margin: 20px auto;
-    background-color: var(--text-color);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-footer p {
-    margin-top: 1rem;
+    background-color: var(--background-color);
+    border: 1px solid #dee2e6;
+    border-radius: var(--border-radius);
+    /* box-shadow: var(--box-shadow); */
 }
 
 /* Navigation Styles */
 .navbar {
-    background-color: transparent;
-    transition: background-color var(--transition-speed);
-}
-
-.navbar-dark .navbar-brand,
-.navbar-dark .nav-link {
-    color: var(--text-color);
-}
-
-.navbar-dark .nav-link:hover,
-.navbar-dark .nav-link:focus {
-    background-color: var(--secondary-color);
-    transition: background-color var(--transition-speed);
-}
-
-.dropdown-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
     background-color: var(--primary-color);
+    /* box-shadow: var(--box-shadow); */
 }
 
-.dropdown-item {
+.navbar a {
     color: var(--text-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    transition: background-color var(--transition-speed), color var(--transition-speed);
 }
 
-.dropdown-item:hover,
-.dropdown-item:focus {
+.navbar a:hover, .navbar a:focus {
     background-color: var(--secondary-color);
-    transition: background-color var(--transition-speed);
+    color: var(--background-color);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+.navbar a.nav-link, .navbar a.dropdown-toggle{
+    color: var(--background-color);
+    opacity: 1.0;
+}
+
+/* Responsive Design adjustments */
+@media (max-width: 992px) {
     body {
-        font-size: 14px;
+        font-size: 0.9rem;
     }
 
     main {
-        padding: 10px;
+        padding: 15px;
     }
 
-    header,
-    footer {
-        padding: 1rem 0;
+    header, footer {
+        padding: 0.75rem 0;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        margin: 0.25rem 0;
     }
 }
 
@@ -108,28 +99,19 @@ footer p {
     text-align: center;
 }
 
-.mt-1 {
-    margin-top: 1rem;
-}
-
-.mb-1 {
-    margin-bottom: 1rem;
-}
-
-.ml-1 {
-    margin-left: 1rem;
-}
-
-.mr-1 {
-    margin-right: 1rem;
+.mt-1, .mb-1, .ml-1, .mr-1 {
+    margin: 1rem;
 }
 
 /* Typography Improvements */
-h1,
-h2,
-h3 {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+h1, h2, h3 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+p {
+    margin-bottom: 1rem;
 }
 
 /* Accessibility Enhancements */
@@ -138,6 +120,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a:focus {
     text-decoration: underline;
+    color: var(--accent-color);
 }
