@@ -1,50 +1,50 @@
 ---
 layout: default
 title: "Terms of Service - SMS Activate"
-description: "Read the Terms of Service for using SMS Activate services, including virtual phone numbers and SMS verification."
+description: "Read the terms and conditions for using SMS Activate's virtual phone number services."
 lang: en
 permalink: /terms-of-service
 ---
 
 # Terms of Service
 
-Welcome to SMS Activate! By accessing or using our services, you agree to be bound by these terms and conditions. Please read them carefully.
+Welcome to SMS Activate! By using our services, you agree to comply with and be bound by the following terms and conditions. Please review them carefully.
 
 ## Acceptance of Terms
-When you use services provided by SMS Activate, including but not limited to, virtual phone numbers, SMS verification, and temporary phone numbers, you agree to the terms outlined in this document.
+The services that SMS Activate provides to you are subject to the following Terms of Service ("TOS"). We reserve the right to update the TOS at any time without notice to you. You can review the most current version of the TOS at any time on this page.
 
-## Service Description
-SMS Activate provides virtual phone number services that can be used for SMS verification across various platforms. This helps protect your privacy by not requiring your personal phone number.
+## Description of Services
+SMS Activate offers a variety of virtual phone number services designed for SMS verification, privacy protection, and temporary communication needs. Our services include:
+- **Real-time SMS Delivery:** Immediate notifications for SMS verifications.
+- **Virtual Phone Numbers:** Temporary or long-term phone numbers from various countries.
+- **Elite Phone Numbers:** High-quality numbers for enhanced business branding.
+- **Free Phone Numbers:** Accessible on a limited basis for trial or short-term use.
 
-## User Responsibilities
-- Users must provide accurate information when required.
-- Users are responsible for all activities under their account.
-- Misuse of any phone number or service is strictly prohibited.
+## User Conduct
+You are responsible for all activities under your account, including the legality, reliability, and appropriateness of all content you receive through our services. The use of our services to transmit any illegal, harassing, libelous, abusive, threatening, harmful, vulgar, obscene, or otherwise objectionable material of any kind is strictly prohibited.
 
-## Prohibited Activities
-You are not allowed to use our services for any unlawful or fraudulent purposes. This includes but is not limited to:
-- Harassment or abuse of any kind.
-- Sending unsolicited messages.
-- Impersonation or misrepresentation.
+## Service Availability
+We strive to ensure availability of our services at all times. However, there may be occasions when services could be interrupted for maintenance, upgrades, emergency repairs, or due to failure of telecommunications links and equipment that are beyond our control.
 
-## Fees and Payments
-SMS Activate offers both free and paid services. Fees for paid services are due at the time of purchase and are non-refundable except as required by law.
+## Payment and Refunds
+Fees for our services are based on the service plan you select. Payments are due at the start of each subscription period. Refunds are available under specific circumstances and must be requested within a certain period after purchase as specified in our refund policy.
 
-## Termination of Services
-We may terminate or suspend access to our services immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
+## Privacy Policy
+Your privacy is important to us. Our [Privacy Policy](/privacy-policy) explains how we collect, use, and protect your personal information. By using our services, you agree to the collection and use of your information as outlined in our Privacy Policy.
 
-## Changes to Terms
-SMS Activate reserves the right to modify these terms at any time. We will provide notice of any significant changes and encourage you to review the terms periodically.
+## Termination
+We may terminate or suspend access to our services immediately if you breach any terms in this TOS without prior notice or liability.
 
-## Contact Us
-If you have any questions about these Terms of Service, please contact us via [Email Support](mailto:support@sms-activate.app).
-
-### Useful Links:
+## Links to Other Pages
 - [Home](/)
 - [Services](/services)
-- [Get Started with SMS Activate](/get-started)
+- [SMS Verification](/sms-verification)
+- [Virtual Phone Numbers](/virtual-phone-numbers)
+- [Temporary Phone Numbers](/temporary-phone-numbers)
+- [Elite Phone Numbers](/elite-phone-numbers)
+- [Free Phone Numbers](/free-phone-numbers)
+- [Contact Us](/contact)
 
-### Keywords:
-virtual phone number, SMS verification, free virtual phone number, temporary phone numbers
+For more detailed information about how to get started with our virtual phone number services or for further assistance, please visit our [Get Started page](/get-started).
 
-Thank you for choosing SMS Activate. We look forward to providing you with quality service and support.
+By accessing or using our services, you signify your agreement to these TOS. If you do not agree with any part of these terms, please do not use our services.

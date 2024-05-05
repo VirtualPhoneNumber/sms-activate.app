@@ -1,61 +1,65 @@
 ---
 layout: default
 title: "API Documentation - SMS Activate"
-description: "Learn how to integrate and use the SMS Activate API for automated virtual number management and SMS verifications."
+description: "Explore the detailed API documentation for integrating SMS verification services with your systems using SMS Activate."
 lang: en
 permalink: /api-documentation
 ---
 
 # API Documentation
 
-Welcome to the **SMS Activate API Documentation**. This guide provides detailed instructions on how to integrate and utilize our API to automate your SMS verification processes, manage virtual phone numbers, and enhance your application's capabilities with real-time phone number services.
+Welcome to the API documentation for SMS Activate. This section provides comprehensive details and guidelines on how to integrate our virtual phone number services into your applications and systems efficiently. Whether you're looking to automate SMS verifications or enhance your application's communication capabilities, our API offers robust solutions tailored to meet your needs.
 
 ## Overview
 
-The SMS Activate API allows developers to seamlessly integrate virtual phone number services into their applications. Whether you're building a system for SMS verification, customer engagement, or need numbers for testing, our API provides a robust solution.
-
-## Key Features
-
-- **Automated Number Allocation:** Programmatically acquire virtual phone numbers from various countries.
-- **Real-Time SMS Reception:** Receive SMS messages instantly through API callbacks.
-- **Extended Verification Services:** Use our numbers for verifications on platforms like WhatsApp, Instagram, Google Voice, and more.
-- **Management Functions:** View, renew, or release numbers directly via API calls.
+Our API allows developers to access and manage virtual phone numbers programmatically for various use cases including SMS verification, call management, and more. It supports a wide range of operations such as number allocation, message retrieval, and real-time notifications.
 
 ## Getting Started
 
-1. **Register for Access:** Visit our [Get Started](https://sms-activate.app/get-started) page to sign up and obtain your unique API key.
-2. **Read the Documentation:** Familiarize yourself with the available endpoints and their functions.
-3. **Integrate:** Use the provided code snippets and libraries to integrate the API into your application.
+To begin using the SMS Activate API, you need to:
 
-## Sample Code
+1. **Create an Account:** Sign up at [SMS Activate](https://sms-activate.app/get-started) to obtain your API key.
+2. **API Key:** Securely store your unique API key which is essential for all requests.
+3. **Read the Documentation:** Familiarize yourself with the available endpoints and their specific requirements.
 
-Here’s a basic example of how to request a new virtual number using Python:
+## Key Endpoints
 
-```python
-import requests
+- **Get Number:** Allocate a new virtual phone number for receiving SMS.
+- **Send SMS:** Send outgoing messages from your allocated number.
+- **Check Status:** Retrieve the current status of a given phone number.
+- **Release Number:** Release the number after use or when it is no longer needed.
 
-api_key = 'your_api_key_here'
-response = requests.get(f"https://sms-activate.app/api/get_number?api_key={api_key}&service=whatsapp")
-number_details = response.json()
+## Example Requests
 
-print(number_details)
+Here are some basic examples of how to use the API:
+
+### Request a Number
+
+```bash
+curl -X GET 'https://api.sms-activate.app/get-number?api_key=YOUR_API_KEY&service=whatsapp'
 ```
+
+### Check Message Status
+
+```bash
+curl -X GET 'https://api.sms-activate.app/check-status?api_key=YOUR_API_KEY&number_id=12345'
+```
+
+## Best Practices
+
+- **Security:** Always keep your API key confidential to prevent unauthorized access.
+- **Error Handling:** Implement robust error handling to manage different scenarios gracefully.
+- **Resource Management:** Release numbers when not in use to avoid unnecessary charges.
 
 ## Support and Resources
 
-For any questions or assistance with the API:
-- Contact our [Support Team](/support)
-- Visit our [FAQ](/faq) page for common questions
-- Check out the [Developer Community](https://developer.sms-activate.app) for discussions and tips
+For any technical issues or questions regarding the API integration, please refer to our [Support Page](/support) or contact us directly through [Email Support](mailto:support@sms-activate.app).
 
-## Useful Links
+To explore further details about other services, visit our [Services Page](/services).
 
-- [API Pricing](/pricing)
-- [How It Works](/how-it-works)
-- [Terms of Service](/terms-of-service)
+**Useful Links:**
+- [Home](/)
+- [Get Started with SMS Activate](/get-started)
+- [FAQ](/faq)
 
-We continuously update our documentation to provide you with all necessary tools for successful integration. Ensure your applications run smoothly with reliable access to virtual numbers through the SMS Activate API.
-
-Explore other services we offer by visiting our [Services page](/services).
-
-**Keywords**: SMS Activate API, integrate sms verification service, automated phone number management, real-time sms reception api, virtual phone number api documentation.
+By leveraging our detailed API documentation and following the outlined best practices, you can enhance your application's capabilities with efficient and reliable communication tools provided by SMS Activate.

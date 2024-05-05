@@ -51,7 +51,8 @@
             "https://t.me/PrivatePhoneReviews"
         ]
     }
-</script>
+    </script>
+
     <!-- Open Graph Tags -->
     <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
     <meta property="og:description" content="{{ page.description | default: site.description }}">
@@ -83,7 +84,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', "{{ site.google_analytics }}");
     </script>
 </head>
@@ -119,7 +119,6 @@
                             {% endif %}
                         </li>
                         {% endfor %}
-                        <!-- Language Switcher -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLang" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -134,7 +133,7 @@
                 </div>
             </div>
         </nav>
-    </header>
+    </header> 
     <main role="main">
         {{ content }}
     </main>
