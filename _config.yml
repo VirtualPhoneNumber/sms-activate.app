@@ -1,7 +1,7 @@
 # Site settings
 title: SMS-Activate.app
 email: contact@sms-activate.app
-author: SMS-Activate.app
+author: SMS-Activate
 description: "Secure and private virtual phone numbers for SMS verification on any service. Activate online services without revealing your real phone number."
 baseurl: "" # the subpath of your site, e.g., /blog
 url: "https://sms-activate.app" # the base hostname & protocol for your site
@@ -71,6 +71,8 @@ navigation_en:
   - title: "Services"
     url: "/services"
     submenu:
+      - title: "Services"
+        url: "/services"
       - title: "SMS Verification"
         url: "/sms-verification"
       - title: "Virtual Phone Numbers"
@@ -86,6 +88,8 @@ navigation_en:
   - title: "FAQ"
     url: "/faq"
     submenu:
+      - title: "FAQ"
+        url: "/faq"
       - title: "How It Works"
         url: "/how-it-works"
       - title: "Pricing"
@@ -93,6 +97,8 @@ navigation_en:
   - title: "API"
     url: "/api"
     submenu:
+      - title: "API"
+        url: "/api"
       - title: "API Documentation"
         url: "/api-documentation"
       - title: "Webhook"
@@ -102,6 +108,8 @@ navigation_en:
   - title: "Contact"
     url: "/contact"
     submenu:
+      - title: "Contact"
+        url: "/contact"
       - title: "Support"
         url: "/support"
       - title: "About Us"
@@ -113,6 +121,8 @@ navigation_en:
   - title: "For Partners"
     url: "/for-partners"
     submenu:
+      - title: "For Partners"
+        url: "/for-partners"
       - title: "Affiliate Program"
         url: "/affiliate-program"
       - title: "Reseller Program"
@@ -122,6 +132,8 @@ navigation_en:
   - title: "Blog"
     url: "/blog"
     submenu:
+      - title: "Blog"
+        url: "/blog"
       - title: "SMS Verification Binance"
         url: "/en/blog/sms-verification-binance"
       - title: "SMS Verification WhatsApp"
@@ -168,6 +180,8 @@ navigation_ru:
   - title: "Услуги"
     url: "/ru/services"
     submenu:
+      - title: "Услуги"
+        url: "/ru/services"
       - title: "СМС Верификация"
         url: "/ru/sms-verification"
       - title: "Виртуальные Номера"
@@ -183,6 +197,8 @@ navigation_ru:
   - title: "Вопросы и Ответы"
     url: "/ru/faq"
     submenu:
+      - title: "Вопросы и Ответы"
+        url: "/ru/faq"
       - title: "Как это работает"
         url: "/ru/how-it-works"
       - title: "Цены"
@@ -190,6 +206,8 @@ navigation_ru:
   - title: "API"
     url: "/ru/api"
     submenu:
+      - title: "API"
+        url: "/ru/api"
       - title: "Документация API"
         url: "/ru/api-documentation"
       - title: "Webhook"
@@ -199,6 +217,8 @@ navigation_ru:
   - title: "Контакты"
     url: "/ru/contact"
     submenu:
+      - title: "Контакты"
+        url: "/ru/contact"
       - title: "Поддержка"
         url: "/ru/support"
       - title: "О нас"
@@ -210,6 +230,8 @@ navigation_ru:
   - title: "Для Партнеров"
     url: "/ru/for-partners"
     submenu:
+      - title: "Для Партнеров"
+        url: "/ru/for-partners"
       - title: "Партнерская Программа"
         url: "/ru/affiliate-program"
       - title: "Программа для Перепродавцов"
@@ -219,6 +241,8 @@ navigation_ru:
   - title: "Блог"
     url: "/ru/blog"
     submenu:
+      - title: "Блог"
+        url: "/ru/blog"
       - title: "СМС Верификация Binance"
         url: "/ru/blog/sms-verification-binance"
       - title: "СМС Верификация WhatsApp"
@@ -265,6 +289,8 @@ navigation_zh:
   - title: "服务"
     url: "/zh/services"
     submenu:
+      - title: "服务"
+        url: "/zh/services"
       - title: "短信验证"
         url: "/zh/sms-verification"
       - title: "虚拟号码"
@@ -280,6 +306,8 @@ navigation_zh:
   - title: "常见问题解答"
     url: "/zh/faq"
     submenu:
+      - title: "常见问题解答"
+        url: "/zh/faq"
       - title: "如何使用"
         url: "/zh/how-it-works"
       - title: "价格"
@@ -287,6 +315,8 @@ navigation_zh:
   - title: "API"
     url: "/zh/api"
     submenu:
+      - title: "API"
+        url: "/zh/api"
       - title: "API 文档"
         url: "/zh/api-documentation"
       - title: "Webhook"
@@ -296,6 +326,8 @@ navigation_zh:
   - title: "联系方式"
     url: "/zh/contact"
     submenu:
+      - title: "联系方式"
+        url: "/zh/contact"
       - title: "支持"
         url: "/zh/support"
       - title: "关于我们"
@@ -307,6 +339,8 @@ navigation_zh:
   - title: "合作伙伴"
     url: "/zh/for-partners"
     submenu:
+      - title: "合作伙伴"
+        url: "/zh/for-partners"
       - title: "合作伙伴计划"
         url: "/zh/affiliate-program"
       - title: "经销商计划"
@@ -316,6 +350,8 @@ navigation_zh:
   - title: "博客"
     url: "/zh/blog"
     submenu:
+      - title: "博客"
+        url: "/zh/blog"
       - title: "Binance 短信验证"
         url: "/zh/blog/sms-verification-binance"
       - title: "WhatsApp 短信验证"
