@@ -7,7 +7,7 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-    <meta name="author" content="SMS Activate">
+    <meta name="author" content="{{ site.author }}">
 
     <!-- Schema.org for SEO -->
     <script type="application/ld+json">
@@ -133,7 +133,7 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownLang">
                                 <li><a class="dropdown-item" href="/">English</a></li>
                                 <li><a class="dropdown-item" href="/ru/">Русский</a></li>
-                                <li><a class="dropdown-item" href="/cn/">中文</a></li>
+                                <li><a class="dropdown-item" href="/zh/">中文</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -148,7 +148,7 @@
         <div>
             <a href="/">English</a>
             <a href="/ru/">Русский</a>
-            <a href="/cn/">中文</a>
+            <a href="/zh/">中文</a>
         </div>
         <a href="/sitemap.xml">Sitemap</a>
         <p>© {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
