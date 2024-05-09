@@ -8,7 +8,8 @@ url: "https://sms-activate.app" # the base hostname & protocol for your site
 twitter_username: PrivatePhoneBot
 github_username: VirtualPhoneNumber
 telegram_username: PrivatePhoneBot
-google_analytics: G-VNJRLSL3WX # Replace with your actual Tracking ID
+google_analytics: G-VNJRLSL3WX
+yandex_metrica: 97244029
 
 # Build settings
 markdown: kramdown
