@@ -10,6 +10,8 @@ permalink: /sms-verification
 
 At sms-activate.app, we understand the importance of maintaining your privacy and security online. Our SMS verification services are designed to provide you with a seamless and secure way to verify your identity across various platforms without compromising your personal information.
 
+SMS Activate Telegram bot - [@PrivatePhoneBot](https://t.me/PrivatePhoneBot)
+
 ## Why Choose Our SMS Verification?
 
 - **Privacy Guaranteed:** Your personal number stays private. Use our virtual numbers for any verification.
