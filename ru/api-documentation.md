@@ -17,25 +17,7 @@ permalink: /ru/api-documentation
 - **Получение СМС:** Автоматически получайте входящие СМС на активированный номер.
 - **Управление активными сессиями:** Проверяйте статус и управляйте текущими активными сессиями.
 
-## Примеры использования кода
-
-### Получение списка доступных номеров
-
-```python
-import requests
-
-response = requests.get('https://api.sms-activate.app/getNumbers?apiKey=ВАШ_КЛЮЧ_API')
-numbers = response.json()
-print(numbers)
-```
-
-### Активация номера для верификации
-
-```python
-activation = requests.post('https://api.sms-activate.app/startSession', data={'apiKey': 'ВАШ_КЛЮЧ_API', 'numberId': 'ID_НОМЕРА'})
-session_details = activation.json()
-print(session_details)
-```
+SMS Activate Telegram bot - [@PrivatePhoneBot](https://t.me/PrivatePhoneBot)
 
 ## Поддержка и помощь
 
