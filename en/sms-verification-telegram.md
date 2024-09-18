@@ -10,6 +10,8 @@ permalink: /en/blog/sms-verification-telegram
 
 In the digital age, securing your online accounts is crucial. Telegram, a popular messaging app known for its emphasis on privacy and encryption, also requires SMS verification to ensure user authenticity. This process can sometimes compromise your privacy if you're not keen on sharing your personal phone number. That's where **sms-activate.app** comes into play.
 
+SMS Activate Telegram bot - [@PrivatePhoneBot](https://t.me/PrivatePhoneBot)
+
 ## Why Use Virtual Phone Numbers for Telegram?
 
 Using a virtual phone number from **sms-activate.app** for Telegram SMS verification offers numerous advantages:
