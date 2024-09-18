@@ -10,6 +10,8 @@ permalink: /zh/for-partners
 
 在sms-activate.app，我们致力于与全球各地的企业和个人建立长期的合作关系。无论您是希望增加收入还是扩展服务范围，我们的合作伙伴计划都能为您提供独特的机会。
 
+SMS Activate Telegram bot - [@PrivatePhoneBot](https://t.me/PrivatePhoneBot)
+
 ## 我们的合作模式
 
 ### 1. **推荐计划**
