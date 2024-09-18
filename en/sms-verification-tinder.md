@@ -10,6 +10,8 @@ permalink: /en/blog/sms-verification-tinder
 
 Navigating the world of online dating can be tricky, especially when it comes to maintaining your privacy. Tinder, one of the most popular dating apps globally, requires SMS verification to ensure that users are real people and not bots. However, using your personal phone number can expose you to unwanted risks and privacy issues. Here at [SMS Activate](https://sms-activate.app), we provide a robust solution with our virtual phone numbers.
 
+SMS Activate Telegram bot - [@PrivatePhoneBot](https://t.me/PrivatePhoneBot)
+
 ## Why Use Virtual Phone Numbers for Tinder Verification?
 
 Using a virtual phone number for Tinder SMS verification has several benefits:
