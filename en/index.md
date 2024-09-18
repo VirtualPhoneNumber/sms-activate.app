@@ -34,7 +34,7 @@ Use our services on a pay-as-you-go basis with no long-term commitments. Perfect
 
 ## Getting Started is Easy!
 
-Start using our services through the convenient Telegram bot - [@PrivatePhoneBot](https://t.me/PrivatePhoneBot). It's designed to provide instant access to virtual numbers, real-time SMS delivery, advanced call features, and more. [Click here to get started!](/get-started)
+Start using our services through the convenient SMS Activate Telegram bot - [@PrivatePhoneBot](https://t.me/PrivatePhoneBot). It's designed to provide instant access to virtual numbers, real-time SMS delivery, advanced call features, and more. [Click here to get started!](/get-started)
 
 ## Join Our Community
 
