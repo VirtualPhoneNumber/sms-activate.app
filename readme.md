@@ -42,7 +42,7 @@ Your privacy and convenience are just a click away. Secure your online presence 
 - **Insights**: [Hackernoon Profile](https://hackernoon.com/u/privatephonebot)
 - **Additional Links**:
   - [PrivatePhone.me](https://privatephone.me)
-  - [Free Virtual Numbers](http://freevirtualnumbers.com)
+  - [Free Virtual Numbers](https://freevirtualnumbers.com)
   - [SMS Activate Codes](https://sms-activate.codes)
   - [SMS Activate Bot](https://sms-activate.bot)
   - [VirtualPhoneNumber.org](https://virtualphonenumber.org)
