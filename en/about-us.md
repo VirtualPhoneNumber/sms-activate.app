@@ -60,7 +60,7 @@ Join our community groups on Telegram:
 
 Explore related resources:
 - [Virtual Phone Number Org](https://virtualphonenumber.org)
-- [Free Virtual Numbers](http://freevirtualnumbers.com)
+- [Free Virtual Numbers](https://freevirtualnumbers.com)
 - [PrivatePhone.me](https://privatephone.me)
 - [SMS-Activate.bot](https://sms-activate.bot)
 
