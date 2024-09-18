@@ -10,6 +10,8 @@ permalink: /zh/services
 
 在SMS Activate，我们提供一系列高质量的虚拟电话号码服务，帮助您在保护隐私的同时轻松完成在线验证。无论您是需要短期号码还是长期解决方案，我们的服务都能满足您的需求。
 
+SMS Activate Telegram bot - [@PrivatePhoneBot](https://t.me/PrivatePhoneBot)
+
 ## 我们的主要服务包括：
 
 - **短信验证**：通过使用临时或长期虚拟号码，确保您在线活动的安全性。
