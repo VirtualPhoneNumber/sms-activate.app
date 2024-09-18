@@ -10,6 +10,8 @@ permalink: /zh/terms-of-service
 
 欢迎使用sms-activate.app，我们提供虚拟电话号码用于短信验证，帮助您保护个人隐私并支持全球700多个站点和应用程序的在线验证需求。
 
+SMS Activate Telegram bot - [@PrivatePhoneBot](https://t.me/PrivatePhoneBot)
+
 ## 1. 服务概述
 sms-activate.app提供以下主要服务：
 - **短信验证**：保护您的在线活动，无需暴露个人电话号码。
