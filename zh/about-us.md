@@ -57,7 +57,7 @@ Webhook集成：轻松与您的业务系统集成。
 **额外资源:**
 - **相关网站:**
   - [Virtual Phone Number Org](https://virtualphonenumber.org)
-  - [Free Virtual Numbers](http://freevirtualnumbers.com)
+  - [Free Virtual Numbers](https://freevirtualnumbers.com)
   - [PrivatePhone.me](https://privatephone.me)
   - [SMS-Activate.bot](https://sms-activate.bot)
 
