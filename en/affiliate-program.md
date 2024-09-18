@@ -42,6 +42,8 @@ As an affiliate, you will receive:
 
 ## Join Us Today!
 
+SMS Activate Telegram bot - [@PrivatePhoneBot](https://t.me/PrivatePhoneBot)
+
 Ready to earn by helping others stay safe online? [Sign up now](https://sms-activate.app/get-started) and be part of our growing community!
 
 For more details about our services that you can promote, visit our [Services page](/services) or learn more about specific offerings like [SMS Verification](/sms-verification) and [Virtual Phone Numbers](/virtual-phone-numbers).
