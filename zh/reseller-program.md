@@ -10,6 +10,8 @@ permalink: /zh/reseller-program
 
 在sms-activate.app，我们提供一个全面的经销商计划，专为希望扩大其业务范围并从虚拟电话号码市场获得收益的企业和个人设计。加入我们的经销商计划，您可以享受竞争力的价格折扣、定制服务选项以及优先客户支持。
 
+SMS Activate Telegram bot - [@PrivatePhoneBot](https://t.me/PrivatePhoneBot)
+
 ## 主要优势
 
 - **价格优惠**：作为经销商，您将获得我们所有产品和服务的特别折扣。
