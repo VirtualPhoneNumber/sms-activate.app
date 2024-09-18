@@ -10,6 +10,8 @@ permalink: /services
 
 Welcome to our comprehensive suite of virtual phone services designed to meet the diverse needs of individuals and businesses alike. At SMS-Activate, we specialize in providing secure and private virtual phone numbers that cater to a variety of applications, from SMS verifications to business communications.
 
+SMS Activate Telegram bot - [@PrivatePhoneBot](https://t.me/PrivatePhoneBot)
+
 ## Our Key Services
 
 ### 1. **SMS Verification**
