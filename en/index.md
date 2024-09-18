@@ -48,7 +48,7 @@ Connect with others and stay updated with the latest news:
 For additional resources and partnerships, check out our related sites:
 
 - [Virtual Phone Number Org](https://virtualphonenumber.org)
-- [Free Virtual Numbers](http://freevirtualnumbers.com)
+- [Free Virtual Numbers](https://freevirtualnumbers.com)
 - [PrivatePhone.me](https://privatephone.me)
   
 Ready to secure a virtual phone number? [Start here!](/get-started)
